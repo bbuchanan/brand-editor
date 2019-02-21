@@ -2,6 +2,10 @@
 
 The DATABASE_URL will be a Firebase realtime database URL.
 
+## Purpose
+
+This is an app for learning more about hooks in React and how Typescript can play nicely with hooks. The project implements a mockup of a brand editor for a department store. Brands link to subcategories (which links to categories) and a floor.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
