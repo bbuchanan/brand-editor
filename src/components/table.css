@@ -1,0 +1,20 @@
+.table-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.table-column {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1;
+  margin: 5px;
+}
+
+.table-column-end {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0;
+  margin: 5px;
+}

@@ -1,3 +1,7 @@
+## YOU MUST DEFINE A .env FILE WITH THE DATABASE_URL VARIABLE
+
+The DATABASE_URL will be a Firebase realtime database URL.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
