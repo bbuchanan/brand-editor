@@ -1,6 +1,6 @@
 import Keyed from "./Keyed";
 
-export default interface ICategory extends Keyed {
+export default interface ISubcategory extends Keyed {
   Id: string;
   Subcategory: string;
   CategoryId?: string;

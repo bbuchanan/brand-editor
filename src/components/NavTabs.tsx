@@ -4,6 +4,7 @@ import { TabView, TabPanel } from "primereact/tabview";
 import BrandGrid from "./BrandGrid";
 import CategoryGrid from "./CategoryGrid";
 import SubcategoryGrid from "./SubcategoryGrid";
+import PopupGrid from "./PopupGrid";
 
 const navTabs = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -19,7 +20,9 @@ const navTabs = () => {
       <TabPanel header="Subcategories">
         <SubcategoryGrid />
       </TabPanel>
-      <TabPanel header="Popup Texts">Popup</TabPanel>
+      <TabPanel header="Popup Texts">
+        <PopupGrid />
+      </TabPanel>
     </TabView>
   );
 };
