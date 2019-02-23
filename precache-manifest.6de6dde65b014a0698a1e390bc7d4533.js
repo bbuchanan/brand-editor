@@ -88,16 +88,16 @@ self.__precacheManifest = [
     "url": "/brand-editor/static/media/line.567f5738.gif"
   },
   {
+    "revision": "b8eccb1059ea5faaf6d8b7d457ccfd09",
+    "url": "/brand-editor/static/media/primeicons.b8eccb10.eot"
+  },
+  {
     "revision": "473e2a746d3c151d7dcaa626a7c84c60",
     "url": "/brand-editor/static/media/primeicons.473e2a74.ttf"
   },
   {
     "revision": "71bb3d79dcf18b45ae845409e7c2ada3",
     "url": "/brand-editor/static/media/primeicons.71bb3d79.woff"
-  },
-  {
-    "revision": "b8eccb1059ea5faaf6d8b7d457ccfd09",
-    "url": "/brand-editor/static/media/primeicons.b8eccb10.eot"
   },
   {
     "revision": "38d77552b0353684a208177482d5b6ee",
