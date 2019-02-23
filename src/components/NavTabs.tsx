@@ -5,6 +5,7 @@ import BrandGrid from "./BrandGrid";
 import CategoryGrid from "./CategoryGrid";
 import SubcategoryGrid from "./SubcategoryGrid";
 import PopupGrid from "./PopupGrid";
+import FloorGrid from "./FloorGrid";
 
 const navTabs = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -22,6 +23,9 @@ const navTabs = () => {
       </TabPanel>
       <TabPanel header="Popup Texts">
         <PopupGrid />
+      </TabPanel>
+      <TabPanel header="Floors">
+        <FloorGrid />
       </TabPanel>
     </TabView>
   );
