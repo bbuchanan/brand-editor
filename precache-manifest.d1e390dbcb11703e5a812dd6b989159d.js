@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "816cae9883abee2fa017",
+    "revision": "11394a88e26f88575543",
     "url": "/brand-editor/static/css/main.27f38848.chunk.css"
   },
   {
-    "revision": "816cae9883abee2fa017",
-    "url": "/brand-editor/static/js/main.816cae98.chunk.js"
+    "revision": "11394a88e26f88575543",
+    "url": "/brand-editor/static/js/main.11394a88.chunk.js"
   },
   {
     "revision": "3408d6bf65d408dfb67e",
     "url": "/brand-editor/static/js/runtime~main.3408d6bf.js"
   },
   {
-    "revision": "706040d7e8116267aa60",
+    "revision": "d36da0ec48ecf8f0419c",
     "url": "/brand-editor/static/css/2.fda7845b.chunk.css"
   },
   {
-    "revision": "706040d7e8116267aa60",
-    "url": "/brand-editor/static/js/2.706040d7.chunk.js"
+    "revision": "d36da0ec48ecf8f0419c",
+    "url": "/brand-editor/static/js/2.d36da0ec.chunk.js"
   },
   {
     "revision": "76b56857ebbae3a5a689f213feb11af0",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/brand-editor/static/media/primeicons.38d77552.svg"
   },
   {
-    "revision": "cac349dc99671e6c7928eefb34f3115a",
+    "revision": "1c54db00b1795a1688a4c0e2cdd12fcc",
     "url": "/brand-editor/index.html"
   }
 ];
