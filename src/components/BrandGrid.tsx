@@ -1,4 +1,4 @@
-import React, { useState, useReducer, useMemo, useEffect } from "react";
+import React, { useState, useReducer, useMemo, useEffect, useRef } from "react";
 import IBrand from "../Interfaces/Brand";
 import ISubcategory from "../Interfaces/Subcategory";
 import IFloor from "../Interfaces/Floor";
@@ -21,6 +21,7 @@ const brandGrid = () => {
   const [selectedFloor, setSelectedFloor] = useState<IFloor>({} as IFloor);
   const [floorList, setFloorList] = useState<IFloor[]>([]);
   const [brandName, setBrandName] = useState<string>("");
+  const tableRef = useRef<DataTable>(null);
 
   const initialState: IBrand[] = [];
 
@@ -152,11 +153,15 @@ const brandGrid = () => {
       });
   };
 
+  const doExport = () => {
+    tableRef.current!.exportCSV();
+  };
+
   return (
     <>
       {useMemo(
         () => (
-          <DataTable value={brandList}>
+          <DataTable value={brandList} ref={tableRef}>
             <Column
               field="BrandName"
               header="Brand Name"
@@ -201,6 +206,11 @@ const brandGrid = () => {
         </div>
         <div className="table-column-end">
           <Button style={{ maxWidth: 180 }} label="Add Brand" icon="pi pi-check" onClick={newBrandHandler} />
+        </div>
+      </div>
+      <div className="table-row">
+        <div className="table-column">
+          <Button type="button" icon="pi pi-external-link" iconPos="left" label="CSV" onClick={doExport} />
         </div>
       </div>
     </>
